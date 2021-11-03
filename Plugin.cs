@@ -7,6 +7,7 @@ using System.Reflection;
 namespace MenuCore
 {
     [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
+    [BepInDependency("com.steven.nasb.moddingutils")]
     class Plugin : BaseUnityPlugin
     {
         internal static Plugin Instance;
