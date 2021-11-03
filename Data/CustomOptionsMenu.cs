@@ -8,6 +8,11 @@ namespace MenuCore
         public string menuName;
         public List<MenuItem> menuItems = new List<MenuItem>();
 
+        public CustomOptionsMenu(string name = null)
+        {
+            menuName = name;
+        }
+
         /// <summary>
         /// Creates a slider
         /// </summary>
